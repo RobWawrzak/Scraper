@@ -1,0 +1,32 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "allows users to view and leave comments on the latest news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobWawrzak/Scraper.git"
+  },
+  "author": "Robert Wawrzal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobWawrzak/Scraper/issues"
+  },
+  "homepage": "https://github.com/RobWawrzak/Scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.13",
+    "mongoose-find-or-create": "^1.3.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.1.0"
+  }
+}
